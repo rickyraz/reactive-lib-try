@@ -33,9 +33,7 @@ setShowFullName(true);
  * In advanced libraries: Libraries provide APIs like onCleanup (Solid.js) or stop (Svelte) to manually dispose of reactive computations.
  */
 
-
-
-// our library doesn't have batching, custom disposal methods, or safeguards against infinite recursion,
+// >> our library doesn't have batching, custom disposal methods, or safeguards against infinite recursion, <<
 
 // Hopefully, through this exercise, you now have a better understanding and appreciation of 
 // --- how auto-tracking in fine-grained reactive libraries work and we have demystified(Mengungkap misteri) some of the magic.
