@@ -1,4 +1,3 @@
-
 // export const createSignal = (value) => {
 // 	const read = () => value;
 // 	const write = (nextValue) => (value = nextValue);
@@ -20,7 +19,7 @@ export const createSignal = (initialValue) => {
 const [count, setCount] = createSignal(3);
 console.log("Initial Read", count());
 
-setCount(5);
+setCount(90);
 console.log("Updated Read", count());
 
 setCount(count() * 2);
